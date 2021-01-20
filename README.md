@@ -1,6 +1,6 @@
-# Library for sample files for 'menu'
+# Library for sample files for 'menu by PEEKBAR'
 
-```Please check out the peekbar/menu repository for all the information and instructions on how to use this software.```
+```Please check out the peekbar/menu repository for all the information and instructions on how to use this software package.```
 
 This library provides you with sample data files and sample templates for 'menu by PEEBAR'. We plan to add more templates in the future.
 
