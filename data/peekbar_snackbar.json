@@ -1,0 +1,163 @@
+{
+    "language": "EN",
+    "categories": [{
+        "name": "Salads",
+        "icon": "https://menu.peekbar.de/salad.png",
+        "products": [{
+            "name": "Side Salad",
+            "shortname": "1",
+            "description": "Small mixed salad with a dressing of your choice.",
+            "price": "4.00",
+            "additives": ""
+        }, {
+            "name": "Fried Chicken Salad",
+            "shortname": "2",
+            "description": "Large mixed salad with freshly breaded chicken breast and dressing of your choice.",
+            "price": "8.00",
+            "additives": "Flavor Enhancers"
+        }, {
+            "name": "Special Salad",
+            "shortname": "3",
+            "description": "Large mixed salad with shepherd's cheese, olives, pepper and a dressing of your choice.",
+            "price": "9.00",
+            "additives": "Flavor Enhancers"
+        }],
+        "banners": [{
+            "title": "Dressings",
+            "text": "Yoghurt, French, Honey Mustard"
+        }, {
+            "title": "The salads are perfectly suitable to take home.",
+            "text": ""
+        }]
+    }, {
+        "name": "Burger",
+        "icon": "https://menu.peekbar.de/burger.png",
+        "products": [{
+            "name": "Cheeseburger (Small)",
+            "shortname": "10",
+            "description": "Small Cheeseburger",
+            "price": "6.00",
+            "additives": ""
+        }, {
+            "name": "Cheeseburger",
+            "shortname": "11",
+            "description": "Large Cheeseburger",
+            "price": "12.00",
+            "additives": ""
+        }, {
+            "name": "Asia-Burger",
+            "shortname": "12",
+            "description": "Asian-inspired burger with homemade curry sauce.",
+            "price": "14.00",
+            "additives": ""
+        }, {
+            "name": "French-Burger",
+            "shortname": "13",
+            "description": "French-inspired burger with French cheese and fresh vegetables.",
+            "price": "14.00",
+            "additives": ""
+        }, {
+            "name": "Bavarian-Burger",
+            "shortname": "14",
+            "description": "Bavarian-inspired burger, optionally with sausages instead of the patty.",
+            "price": "14.00",
+            "additives": ""
+        }],
+        "banners": []
+    }, {
+        "name": "Pizza",
+        "icon": "https://menu.peekbar.de/pizza.png",
+        "products": [{
+            "name": "Pizza Margherita",
+            "shortname": "20",
+            "description": "Fresh tomato sauce, mozzarella, basil",
+            "price": "9.00",
+            "additives": ""
+        }, {
+            "name": "Pizza Salame",
+            "shortname": "21",
+            "description": "Fresh tomato sauce, mozzarella, Italian salami",
+            "price": "14.00",
+            "additives": ""
+        }, {
+            "name": "Pizza Prosciutto",
+            "shortname": "22",
+            "description": "Fresh tomato sauce, mozzarella, prosciutto",
+            "price": "14.00",
+            "additives": ""
+        }, {
+            "name": "Pizza Vegetaria",
+            "shortname": "23",
+            "description": "Fresh tomato sauce, mozzarella, mushrooms, broccoli, peppers, onions, artichokes, olives",
+            "price": "14.00",
+            "additives": ""
+        }, {
+            "name": "Pizza Tonno",
+            "shortname": "24",
+            "description": "Fresh tomato sauce, mozzarella, tuna, onion, garlic",
+            "price": "15.00",
+            "additives": ""
+        }, {
+            "name": "Pizza Diavolo",
+            "shortname": "25",
+            "description": "Fresh tomato sauce, mozzarella, onion, garlic, spicy salami",
+            "price": "14.00",
+            "additives": ""
+        }],
+        "banners": []
+    }, {
+        "name": "Cocktails",
+        "icon": "https://menu.peekbar.de/cocktails.png",
+        "products": [{
+            "name": "Honolulu Flip",
+            "shortname": "X1",
+            "description": "Orange juice, passion fruit juice, pineapple juice, lemon juice, grapefruit juice",
+            "price": "6.00",
+            "additives": ""
+        }, {
+            "name": "Cucumber Feeling",
+            "shortname": "X2",
+            "description": "Cucumber syrup, lemon juice, non-alcoholic sparkling wine",
+            "price": "4.00",
+            "additives": ""
+        }, {
+            "name": "Strawberrysummer",
+            "shortname": "X3",
+            "description": "Coconut milk, milk, strawberry juice, orange juice, grenandine juice",
+            "price": "7.00",
+            "additives": ""
+        }],
+        "banners": []
+    }, {
+        "name": "Drinks",
+        "icon": "https://menu.peekbar.de/drinks.png",
+        "products": [{
+            "name": "Mineral Water",
+            "shortname": "",
+            "description": "Carbonated",
+            "price": "4.00",
+            "additives": ""
+        }, {
+            "name": "Water",
+            "shortname": "",
+            "description": "",
+            "price": "3.00",
+            "additives": ""
+        }],
+        "banners": []
+    }],
+    "banners": [{
+        "title": "Warning!",
+        "text": "This website is only for demonstration purposes."
+    }],
+    "imprint": {
+        "holder": "PEEKBAR",
+        "street": "Street 1",
+        "city": "12345 City",
+        "phone": "0123456789",
+        "mail": "contact@peekbar.de",
+        "tax": "DEXXXX",
+        "homepage": "https://peekbar.de",
+        "companyname": "PEEKBAR's Snackbar"
+    }
+}
