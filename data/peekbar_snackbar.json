@@ -150,6 +150,30 @@
         "title": "Warning!",
         "text": "This website is only for demonstration purposes."
     }],
+    "opening_hours": {
+        "table": [{
+          "days": "Friday, Saturday",
+          "hours": "17:00 - 22:30"
+        }, {
+          "days": "Sunday",
+          "hours": "11:00 - 22:00"
+        }]
+      },
+      "min_order": {
+        "table": [{
+          "dist": "2 km",
+          "order": "12 Euro"
+        }, {
+          "dist": "5 km",
+          "order": "18 Euro"
+        }, {
+          "dist": "7 km",
+          "order": "20 Euro"
+        }, {
+          "dist": "9 km",
+          "order": "25 Euro"
+        }]
+      },
     "imprint": {
         "holder": "PEEKBAR",
         "street": "Street 1",
