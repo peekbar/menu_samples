@@ -60,7 +60,7 @@
         }
 
         function selectButton(clicked) {
-            var button = document.getElementsByClassName('category')[clicked];
+            var button = document.querySelectorAll("a[href^='#" + clicked + "']")[0];
             button.classList.remove('btn-outline-dark');
             button.classList.add('btn-dark');
         }
@@ -85,7 +85,8 @@
         }
 
         function state(clicked) {
-            document.title = pageTitle + ' - ' + document.getElementsByName('categoryText')[clicked].textContent;
+            var button = document.querySelectorAll("a[href^='#" + clicked + "']")[0];
+            document.title = button.children[0].textContent;
             history.replaceState({}, document.title, location.href);
         }
 
@@ -127,13 +128,13 @@
             {% endfor %}
 
             <div class="row justify-content-center m-2">
-                <a role="button" href="#{{opening_hours.id}}" class="category btn btn-outline-dark"">
+                <a role="button" href="#opening_hours" class="category btn btn-outline-dark"">
                     <p name="categoryText">{{system.opening_hours}}</p>
                 </a>
             </div>
 
             <div class="row justify-content-center m-2">
-                <a role="button" href="#{{min_order.id}}" class="category btn btn-outline-dark"">
+                <a role="button" href="#min_order" class="category btn btn-outline-dark"">
                     <p name="categoryText">{{system.min_order}}</p>
                 </a>
             </div>
@@ -234,7 +235,7 @@
         </div>
         {% endfor %}
 
-        <div class="products" id="{{ opening_hours.id }}">
+        <div class="products" id="opening_hours">
             <div class="table-responsive">
                 <table class="table table-hover table-borderless table-dark rounded">
                     <thead>
@@ -243,7 +244,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for o in opening_hours.table %}
+                        {% for o in opening_hours %}
                         <tr>
                             <td>{{o.days}}</td>
                             <td>{{o.hours}}</td>
@@ -254,7 +255,7 @@
             </div>
         </div>
 
-        <div class="products" id="{{ min_order.id }}">
+        <div class="products" id="min_order">
             <div class="table-responsive">
                 <table class="table table-hover table-borderless table-dark rounded">
                     <thead>
@@ -263,7 +264,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for m in min_order.table %}
+                        {% for m in min_order %}
                         <tr>
                             <td>{{m.dist}}</td>
                             <td>{{m.order}}</td>
